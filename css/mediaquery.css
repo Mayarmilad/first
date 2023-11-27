@@ -1,0 +1,317 @@
+@media (min-width: 576px) and (max-width: 786px) {
+
+    /*===============header and nav===============*/
+    .header-title h1 {
+        font-size: 40px;
+    }
+
+    .header-title h5 {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 200;
+        letter-spacing: 0.5px;
+    }
+
+
+    /*===============herosection===============*/
+    .herosec .herocontent {
+        padding-top: 40px;
+    }
+
+    .herosec {
+        padding-inline: 10px;
+    }
+
+    .heroimg img {
+        width: 100%;
+    }
+
+
+    /*===============servicesection===============*/
+
+    #service .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 27%;
+        height: 14px;
+        position: absolute;
+        bottom: -5px;
+        left: 49%;
+        z-index: 1;
+        transform: translate(-50%);
+    }
+
+    /*===============numbersection===============*/
+
+    .number .number-item p {
+        text-wrap: nowrap;
+    }
+
+    /*===============teamsection===============*/
+    .ourteam .social-icon-team {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 25%;
+        position: absolute;
+        top: 30%;
+        transform: translateY(50%);
+    }
+
+    .ourteam .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 35%;
+        height: 12px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        z-index: 1;
+        transform: translate(-50%);
+        background-color: #21252900;
+    }
+
+    /*===============testimonialsection===============*/
+    .testimonial .inner-img {
+        width: 15%;
+        margin: auto;
+    }
+
+    .testimonial .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 45%;
+        height: 9px;
+        position: absolute;
+        bottom: -10px;
+        left: 49%;
+        z-index: 1;
+        transform: translate(-50%);
+        background-color: #21252900;
+    }
+
+    /*===============portofoliosection===============*/
+    #portfolio .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 33%;
+        height: 10px;
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        z-index: -1;
+        transform: translate(-50%);
+    }
+
+
+    /*===============contactsection===============*/
+    .contact .inforamtion-icon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact .info-take .small-input {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 37%;
+        height: 12px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        z-index: -1;
+        transform: translate(-50%);
+        background-color: #21252900;
+    }
+
+
+}
+
+/*=======================================medium mediaquery===================================*/
+
+@media (min-width: 768px) {
+
+   
+    .header-title h1 {
+        font-size: 58px;
+    }
+
+    .header-title h5 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 200;
+        letter-spacing: 0.5px;
+    }
+    /*===============portfoliosection===============*/
+    #portfolio .portfolio-margin {
+        margin-inline: 5px;
+    }
+
+    /*===============testimonialsection===============*/
+    .testimonial .inner-img {
+        width: 15%;
+        margin: auto;
+    }
+
+    .testimonial .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 33%;
+        height: 9px;
+        position: absolute;
+        bottom: -10px;
+        left: 49%;
+        z-index: 1;
+        transform: translate(-50%);
+        background-color: #21252900;
+    }
+
+    /*===============portfoliosection===============*/
+    #portfolio .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 25%;
+        height: 10px;
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        z-index: -1;
+        transform: translate(-50%);
+    }
+
+    /*===============servicesection===============*/
+    #service .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 22%;
+        height: 14px;
+        position: absolute;
+        bottom: -5px;
+        left: 49%;
+        z-index: 1;
+        transform: translate(-50%);
+    }
+
+    /*===============teamsection===============*/
+    .ourteam .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 30%;
+        height: 9px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        z-index: 1;
+        transform: translate(-50%);
+        background-color: #21252900;
+    }
+
+    /*===============contactsection===============*/
+
+
+    .contact .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 30%;
+        height: 9px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        z-index: -1;
+        transform: translate(-50%);
+        background-color: #21252900;
+    }
+
+}
+@media (min-width: 992px) { 
+
+
+    #service .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 16%;
+        height: 14px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        z-index: 1;
+        transform: translate(-50%);
+    }
+
+
+    #portfolio .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 16%;
+        height: 10px;
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        z-index: -1;
+        transform: translate(-50%);
+    }
+
+
+
+    .testimonial .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 22%;
+        height: 9px;
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        z-index: 1;
+        transform: translate(-50%);
+        background-color: #21252900;
+    }
+
+
+    .ourteam .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 16%;
+        height: 9px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        z-index: 1;
+        transform: translate(-50%);
+        background-color: #21252900;
+    }
+
+    .contact .section-title h3::after {
+        content: "";
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        width: 20%;
+        height: 9px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        z-index: -1;
+        transform: translate(-50%);
+        background-color: #21252900;
+    }
+
+
+}
